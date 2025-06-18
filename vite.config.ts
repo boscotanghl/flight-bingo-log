@@ -7,5 +7,6 @@ export default defineConfig({
   plugins: [react()],
   build: {
     outDir: 'docs', // Build to docs instead of dist
+    assetsDir: './',
   },
 })

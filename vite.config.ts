@@ -5,4 +5,7 @@ import react from '@vitejs/plugin-react'
 export default defineConfig({
   base: '/flight-bingo-log/',
   plugins: [react()],
+  build: {
+    outDir: 'docs', // Build to docs instead of dist
+  },
 })
